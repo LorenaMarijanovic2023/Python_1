@@ -1,0 +1,27 @@
+CAMPSTER
+
+„Sto puta Dobar dan“
+
+Vaš prvi zadatak na ovom tečaju treba poslužiti vježbanju petlje koju ste naučili.
+
+Potrebno je napisati program koji ispisuje 100 linija s brojevima od 1 do 100 na početku linije i porukom ‘Dobar dan’ u svakoj liniji.
+
+Rezultat treba biti ovakav:
+
+1 Dobar dan
+
+2 Dobar dan
+
+3 Dobar dan
+
+4 Dobar dan
+
+…
+
+100 Dobar dan 
+
+
+
+RJEŠENJE:
+for i in range(1, 101):
+    print(str(i) + ' Dobar dan')
